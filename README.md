@@ -1,6 +1,6 @@
 # Sample Application Database
 
-This is a sample application to try out the generator-jhipster-database-backup and generator-jhipster-database-administration.
+This is a sample application to try out the generator-jhipster-database-backup and generator-jhipster-database-administration on a MySQL database.
 
 Once downloaded you can start your database and admin page by executing the following command :
 
