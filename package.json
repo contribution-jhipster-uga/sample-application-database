@@ -23,6 +23,7 @@
         "@ngx-translate/http-loader": "4.0.0",
         "bootstrap": "4.2.1",
         "core-js": "2.6.3",
+        "generator-jhipster-administration-database": "^1.0.2",
         "generator-jhipster-database-backup": "^1.0.6",
         "moment": "2.24.0",
         "ng-jhipster": "0.9.1",
