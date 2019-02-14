@@ -1,0 +1,12 @@
+version: '2'
+services:
+    mysql-backup:
+      user: "0"
+      image: deitch/mysql-backup
+      environment:
+       - DB_DUMP_TARGET=/backup
+       - DB_USER=root
+       - DB_SERVER=jhipster-mysql
+       - DB_DUMP_CRON=0 0 * * *
+      volumes:
+       - ./backup:/backup
