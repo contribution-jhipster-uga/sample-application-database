@@ -1,4 +1,22 @@
-# jhipster
+# Sample Application Database
+
+This is a sample application to try out the generator-jhipster-database-backup and generator-jhipster-database-administration.
+
+Once downloaded you can start your database and admin page by executing the following command :
+
+```bash
+sudo docker-compose src/main/docker/mysql.yml
+```
+
+You will be able to access the admin page on localhost:8090.
+
+If you want to start the backup service you should run the following command :
+
+```bash
+sudo docker-compose src/main/docker/backup-mysql.yml
+```
+
+By default, the backup is set to be done once every day. To modify it you need to modify the DB_DUMP_CRON variable in src/main/docker/backup-mysql.yml. It uses [Cron](https://en.wikipedia.org/wiki/Cron).
 
 This application was generated using JHipster 5.8.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v5.8.1](https://www.jhipster.tech/documentation-archive/v5.8.1).
 
